@@ -42,6 +42,8 @@
         <string>@extend</string>
         <string>@mixin</string>
         <string>@if</string>
+        <string>@else</string>
+        <string>if</string>
         <string>%</string>
         <string>hz</string>
         <string>cm</string>
