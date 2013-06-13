@@ -41,6 +41,8 @@
         <string>@while</string>
         <string>@extend</string>
         <string>@mixin</string>
+        <string>@function</string>
+        <string>@return</string>
         <string>@if</string>
         <string>@else</string>
         <string>if</string>
@@ -79,6 +81,8 @@
         <string>visited</string>
         <string>inherit</string>
         <string>none</string>
+        <string>style</string>
+        <string>$i</string>
     </array>
     <key>BBLMPredefinedNameList</key>
     <array>
