@@ -12,3 +12,7 @@ This should allow for the syntax coloring and code block folding in BBEdit.
 **FYI - quickly test changes to .pfile file in terminal**
 
 $ plutil ~/Library/Application\ Support/BBEdit/Language\ Modules/SCSS.plist
+
+**Bare Bones CLM documentation**
+
+http://www.barebones.com/support/develop/clm.html
