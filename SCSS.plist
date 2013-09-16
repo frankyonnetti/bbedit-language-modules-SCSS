@@ -587,6 +587,15 @@
     <string>-moz-all</string>
     <string>-moz-alt-content</string>
     <string>-moz-anchor-decoration</string>
+    <string>-moz-animation-delay</string>
+    <string>-moz-animation-direction</string>
+    <string>-moz-animation-duration</string>
+    <string>-moz-animation-fill-mode</string>
+    <string>-moz-animation-iteration-count</string>
+    <string>-moz-animation-name</string>
+    <string>-moz-animation-play-state</string>
+    <string>-moz-animation-timing-function</string>
+    <string>-moz-animation</string>
     <string>-moz-appearance</string>
     <string>-moz-arabic-indic</string>
     <string>-moz-available</string>
