@@ -90,6 +90,7 @@
     <string>khz</string>
     <string>label</string>
     <string>lang</string>
+    <string>last-child</string>
     <string>legend</string>
     <string>li</string>
     <string>linear_extrude</string>
@@ -737,6 +738,7 @@
     <string>-moz-none</string>
     <string>-moz-opacity</string>
     <string>-moz-oriya</string>
+    <string>-moz-osx-font-smoothing</string>
     <string>-moz-outline-color</string>
     <string>-moz-outline-offset</string>
     <string>-moz-outline-radius-bottomleft</string>
@@ -790,6 +792,9 @@
     <string>-moz-workspace</string>
     <string>-moz-zoom-in</string>
     <string>-moz-zoom-out</string>
+    <string>-ms-filter</string>
+    <string>-ms-text-size-adjust</string>
+    <string>-ms-user-select</string>
     <string>-o-text-overflow</string>
     <string>-webkit-activelink</string>
     <string>-webkit-animation-delay</string>
@@ -846,14 +851,15 @@
     <string>-webkit-dashboard-region</string>
     <string>-webkit-focus-ring-color</string>
     <string>-webkit-font-size-delta</string>
+    <string>-webkit-font-smoothing</string>
     <string>-webkit-grab</string>
     <string>-webkit-grabbing</string>
     <string>-webkit-highlight</string>
     <string>-webkit-inline-box</string>
     <string>-webkit-left</string>
-    <string>-webkit-linear-gradient</string>
     <string>-webkit-line-break</string>
     <string>-webkit-line-clamp</string>
+    <string>-webkit-linear-gradient</string>
     <string>-webkit-link</string>
     <string>-webkit-margin-bottom-collapse</string>
     <string>-webkit-margin-collapse</string>
@@ -878,8 +884,10 @@
     <string>-webkit-mask-size</string>
     <string>-webkit-mask</string>
     <string>-webkit-match-nearest-mail-blockquote-color</string>
+    <string>-webkit-min-device-pixel-ratio</string>
     <string>-webkit-mini-control</string>
     <string>-webkit-nbsp-mode</string>
+    <string>-webkit-overflow-scrolling</string>
     <string>-webkit-padding-start</string>
     <string>-webkit-perspective-origin</string>
     <string>-webkit-perspective</string>
@@ -943,6 +951,7 @@
     <string>:-moz-lwtheme</string>
     <string>:-moz-only-whitespace</string>
     <string>:-moz-placeholder</string>
+    <string>:-moz-placeholder</string>
     <string>:-moz-submit-invalid</string>
     <string>:-moz-suppressed</string>
     <string>:-moz-system-metric(images-in-menus)</string>
@@ -970,6 +979,7 @@
     <string>:-moz-tree-twisty</string>
     <string>:-moz-user-disabled</string>
     <string>:-moz-window-inactive</string>
+    <string>:-ms-input-placeholder</string>
     <string>::-moz-anonymous-block</string>
     <string>::-moz-anonymous-positioned-block</string>
     <string>::-moz-canvas</string>
@@ -994,6 +1004,7 @@
     <string>::-moz-viewport-scroll</string>
     <string>::-moz-viewport</string>
     <string>::-moz-xul-anonymous-block</string>
+    <string>::-webkit-input-placeholder</string>
     <string>@-moz-document</string>
   </array>
   <key>Language Features</key>
