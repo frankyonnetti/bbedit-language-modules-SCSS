@@ -32,6 +32,75 @@
   <true/>
   <key>BBLMKeywordList</key>
   <array>
+
+    <!-- SASS keywords -->
+    <!-- (@include exists in CSS too, so it's listed under CSS keywords) -->
+
+    <string>abs</string>
+    <string>adjust-color</string>
+    <string>adjust-hue</string>
+    <string>alpha</string>
+    <string>append</string>
+    <string>blue</string>
+    <string>ceil</string>
+    <string>change-color</string>
+    <string>comparable</string>
+    <string>complement</string>
+    <string>counter</string>
+    <string>counters</string>
+    <string>darken</string>
+    <string>desaturate</string>
+    <string>floor</string>
+    <string>grayscale</string>
+    <string>green</string>
+    <string>hsl</string>
+    <string>hsla</string>
+    <string>hue</string>
+    <string>ie-hex-str</string>
+    <string>if</string>
+    <string>index</string>
+    <string>invert</string>
+    <string>join</string>
+    <string>length</string>
+    <string>lighten</string>
+    <string>lightness</string>
+    <string>max</string>
+    <string>min</string>
+    <string>mix</string>
+    <string>nth</string>
+    <string>opacify</string>
+    <string>opacity</string>
+    <string>percentage</string>
+    <string>quote</string>
+    <string>red</string>
+    <string>rgb</string>
+    <string>round</string>
+    <string>saturate</string>
+    <string>saturation</string>
+    <string>scale-color</string>
+    <string>transparentize</string>
+    <string>type-of</string>
+    <string>unit</string>
+    <string>unitless</string>
+    <string>unquote</string>
+    <string>zip</string>
+    <string>@content</string>
+    <string>@debug</string>
+    <string>@each</string>
+    <string>@else</string>
+    <string>@extend</string>
+    <string>@for</string>
+    <string>@function</string>
+    <string>@if</string>
+    <string>@mixin</string>
+    <string>@return</string>
+    <string>@warn</string>
+    <string>@while</string>
+    <string>!optional</string>
+    <string>%</string>
+
+    <!-- CSS keywords -->
+
     <string>a</string>
     <string>abbr</string>
     <string>acronym</string>
@@ -39,6 +108,9 @@
     <string>address</string>
     <string>after</string>
     <string>area</string>
+    <string>article</string>
+    <string>aside</string>
+    <string>audio</string>
     <string>b</string>
     <string>base</string>
     <string>before</string>
@@ -47,7 +119,9 @@
     <string>body</string>
     <string>br</string>
     <string>button</string>
+    <string>canvas</string>
     <string>caption</string>
+    <string>checked</string>
     <string>cite</string>
     <string>cm</string>
     <string>code</string>
@@ -56,23 +130,36 @@
     <string>dd</string>
     <string>deg</string>
     <string>del</string>
+    <string>details</string>
     <string>dfn</string>
+    <string>disabled</string>
     <string>div</string>
     <string>dl</string>
     <string>dt</string>
     <string>em</string>
     <string>ex</string>
     <string>fieldset</string>
+    <string>figcaption</string>
+    <string>figure</string>
     <string>first-child</string>
     <string>first-letter</string>
     <string>first-line</string>
     <string>focus</string>
+    <string>footer</string>
     <string>form</string>
+    <string>format</string>
     <string>frame</string>
     <string>frameset</string>
     <string>grad</string>
-    <string>(h[1-6])</string>
+    <string>h1</string>
+    <string>h2</string>
+    <string>h3</string>
+    <string>h4</string>
+    <string>h5</string>
+    <string>h6</string>
     <string>head</string>
+    <string>header</string>
+    <string>hgroup</string>
     <string>hover</string>
     <string>hr</string>
     <string>html</string>
@@ -93,12 +180,13 @@
     <string>last-child</string>
     <string>legend</string>
     <string>li</string>
-    <string>linear_extrude</string>
     <string>link</string>
+    <string>main</string>
     <string>map</string>
     <string>meta</string>
     <string>mm</string>
     <string>ms</string>
+    <string>nav</string>
     <string>noframes</string>
     <string>none</string>
     <string>noscript</string>
@@ -119,6 +207,7 @@
     <string>s</string>
     <string>samp</string>
     <string>script</string>
+    <string>section</string>
     <string>select</string>
     <string>small</string>
     <string>span</string>
@@ -126,6 +215,7 @@
     <string>strong</string>
     <string>style</string>
     <string>sub</string>
+    <string>summary</string>
     <string>sup</string>
     <string>table</string>
     <string>tbody</string>
@@ -139,27 +229,19 @@
     <string>tt</string>
     <string>ul</string>
     <string>url</string>
+    <string>video</string>
     <string>visited</string>
     <string>!important</string>
     <string>@charset</string>
-    <string>@debug</string>
-    <string>@each</string>
-    <string>@else</string>
-    <string>@extend</string>
     <string>@font-face</string>
-    <string>@for</string>
-    <string>@function</string>
-    <string>@if</string>
     <string>@import</string>
     <string>@include</string>
+    <string>@keyframes</string>
     <string>@media</string>
-    <string>@mixin</string>
     <string>@page</string>
-    <string>@return</string>
-    <string>@warn</string>
-    <string>@while</string>
-    <string>%</string>
-    <string>$i</string>
+
+    <!-- Vendor-prefixed CSS keywords -->
+
     <string>-moz-anonymous-block</string>
     <string>-moz-anonymous-positioned-block</string>
     <string>-moz-any-link</string>
@@ -170,6 +252,7 @@
     <string>-moz-cell-content</string>
     <string>-moz-drag-over</string>
     <string>-moz-first-node</string>
+    <string>-moz-focus-inner</string>
     <string>-moz-focusring</string>
     <string>-moz-handler-blocked</string>
     <string>-moz-handler-crashed</string>
@@ -233,18 +316,28 @@
     <string>-moz-window-inactive</string>
     <string>-moz-xul-anonymous-block</string>
     <string>-ms-clear</string>
+    <string>-ms-expand</string>
     <string>-ms-input-placeholder</string>
     <string>-webkit-input-placeholder</string>
     <string>@-moz-document</string>
+    <string>@-moz-keyframes</string>
+    <string>@-webkit-keyframes</string>
   </array>
   <key>BBLMPredefinedNameList</key>
   <array>
+
+    <!-- CSS property names -->
+
+    <string>align-content</string>
+    <string>align-items</string>
+    <string>align-self</string>
     <string>alignment-adjust</string>
     <string>alignment-baseline</string>
     <string>all-space-treatment</string>
     <string>animation-delay</string>
     <string>animation-direction</string>
     <string>animation-duration</string>
+    <string>animation-fill-mode</string>
     <string>animation-iteration-count</string>
     <string>animation-name</string>
     <string>animation-play-state</string>
@@ -259,6 +352,8 @@
     <string>background-color</string>
     <string>background-image</string>
     <string>background-origin</string>
+    <string>background-position-x</string>
+    <string>background-position-y</string>
     <string>background-position</string>
     <string>background-quantity</string>
     <string>background-repeat</string>
@@ -266,6 +361,7 @@
     <string>background-spacing</string>
     <string>background</string>
     <string>baseline-shift</string>
+    <string>behavior</string>
     <string>binding</string>
     <string>block-progression</string>
     <string>bookmark-label</string>
@@ -341,12 +437,8 @@
     <string>box-decoration-break</string>
     <string>box-direction</string>
     <string>box-flex-group</string>
-    <string>box-flex</string>
     <string>box-height</string>
-    <string>box-lines</string>
-    <string>box-ordinal-group</string>
     <string>box-orient</string>
-    <string>box-pack</string>
     <string>box-shadow</string>
     <string>box-sizing</string>
     <string>box-width</string>
@@ -358,6 +450,7 @@
     <string>clear</string>
     <string>clip</string>
     <string>collapse</string>
+    <string>color-index</string>
     <string>color-profile</string>
     <string>color</string>
     <string>column-break-after</string>
@@ -380,6 +473,9 @@
     <string>cue-before</string>
     <string>cue</string>
     <string>cursor</string>
+    <string>device-aspect-ratio</string>
+    <string>device-height</string>
+    <string>device-width</string>
     <string>direction</string>
     <string>display-model</string>
     <string>display-role</string>
@@ -393,16 +489,27 @@
     <string>drop-initial-value</string>
     <string>elevation</string>
     <string>empty-cells</string>
+    <string>filter</string>
     <string>fit-position</string>
     <string>fit</string>
+    <string>flex-basis</string>
+    <string>flex-direction</string>
+    <string>flex-flow</string>
+    <string>flex-grow</string>
+    <string>flex-shrink</string>
+    <string>flex-wrap</string>
+    <string>flex</string>
     <string>float-displace</string>
     <string>float-offset</string>
     <string>float</string>
+    <string>flow-from</string>
+    <string>flow-into</string>
     <string>font-effect</string>
     <string>font-emphasize-position</string>
     <string>font-emphasize-style</string>
     <string>font-emphasize</string>
     <string>font-family</string>
+    <string>font-feature-settings</string>
     <string>font-size-adjust</string>
     <string>font-size</string>
     <string>font-smooth</string>
@@ -413,15 +520,37 @@
     <string>font</string>
     <string>glyph-orientation-horizontal</string>
     <string>glyph-orientation-vertical</string>
-    <string>grid-columns</string>
-    <string>grid-rows</string>
+    <string>grid-area</string>
+    <string>grid-auto-columns</string>
+    <string>grid-auto-flow</string>
+    <string>grid-auto-position</string>
+    <string>grid-auto-rows</string>
+    <string>grid-column-end</string>
+    <string>grid-column-position</string>
+    <string>grid-column-span</string>
+    <string>grid-column-start</string>
+    <string>grid-column</string>
+    <string>grid-definition-columns</string>
+    <string>grid-definition-rows</string>
+    <string>grid-row-end</string>
+    <string>grid-row-position</string>
+    <string>grid-row-span</string>
+    <string>grid-row-start</string>
+    <string>grid-row</string>
+    <string>grid-template-areas</string>
+    <string>grid-template-columns</string>
+    <string>grid-template-rows</string>
+    <string>grid-template</string>
+    <string>grid</string>
     <string>group-reset</string>
-    <string>handheld.background-clip</string>
     <string>hanging-punctuation</string>
     <string>height</string>
     <string>hyphenate-after</string>
     <string>hyphenate-before</string>
     <string>hyphenate-character</string>
+    <string>hyphenate-limit-chars</string>
+    <string>hyphenate-limit-lines</string>
+    <string>hyphenate-limit-zone</string>
     <string>hyphenate-lines</string>
     <string>hyphenate-resource</string>
     <string>hyphens</string>
@@ -431,9 +560,17 @@
     <string>indent-edge-reset</string>
     <string>inline-box-align</string>
     <string>interpret-as</string>
+    <string>justify-content</string>
     <string>kerning-mode</string>
     <string>kerning-pair-threshold</string>
     <string>key-equivalent</string>
+    <string>knock-out</string>
+    <string>layout-flow</string>
+    <string>layout-grid-char</string>
+    <string>layout-grid-line</string>
+    <string>layout-grid-mode</string>
+    <string>layout-grid-type</string>
+    <string>layout-grid</string>
     <string>left</string>
     <string>letter-spacing</string>
     <string>line-break</string>
@@ -451,9 +588,7 @@
     <string>list-style-type</string>
     <string>list-style</string>
     <string>margin-bottom</string>
-    <string>margin-inside</string>
     <string>margin-left</string>
-    <string>margin-outside</string>
     <string>margin-right</string>
     <string>margin-top</string>
     <string>margin</string>
@@ -467,41 +602,27 @@
     <string>marquee-repetition</string>
     <string>marquee-speed</string>
     <string>marquee-style</string>
+    <string>max-color-index</string>
+    <string>max-color</string>
+    <string>max-device-aspect-ratio</string>
+    <string>max-device-height</string>
+    <string>max-device-width</string>
     <string>max-font-size</string>
     <string>max-height</string>
+    <string>max-monochrome</string>
+    <string>max-resolution</string>
     <string>max-width</string>
-    <string>mediafeature.color-index</string>
-    <string>mediafeature.color</string>
-    <string>mediafeature.device-aspect-ratio</string>
-    <string>mediafeature.device-height</string>
-    <string>mediafeature.device-width</string>
-    <string>mediafeature.grid</string>
-    <string>mediafeature.height</string>
-    <string>mediafeature.max-color-index</string>
-    <string>mediafeature.max-color</string>
-    <string>mediafeature.max-device-aspect-ratio</string>
-    <string>mediafeature.max-device-height</string>
-    <string>mediafeature.max-device-width</string>
-    <string>mediafeature.max-height</string>
-    <string>mediafeature.max-monochrome</string>
-    <string>mediafeature.max-resolution</string>
-    <string>mediafeature.max-width</string>
-    <string>mediafeature.min-color-index</string>
-    <string>mediafeature.min-color</string>
-    <string>mediafeature.min-device-aspect-ratio</string>
-    <string>mediafeature.min-device-height</string>
-    <string>mediafeature.min-device-width</string>
-    <string>mediafeature.min-height</string>
-    <string>mediafeature.min-monochrome</string>
-    <string>mediafeature.min-resolution</string>
-    <string>mediafeature.min-width</string>
-    <string>mediafeature.monochrome</string>
-    <string>mediafeature.resolution</string>
-    <string>mediafeature.scan</string>
-    <string>mediafeature.width</string>
+    <string>min-color-index</string>
+    <string>min-color</string>
+    <string>min-device-aspect-ratio</string>
+    <string>min-device-height</string>
+    <string>min-device-width</string>
     <string>min-font-size</string>
     <string>min-height</string>
+    <string>min-monochrome</string>
+    <string>min-resolution</string>
     <string>min-width</string>
+    <string>monochrome</string>
     <string>move-to</string>
     <string>nav-down</string>
     <string>nav-index</string>
@@ -509,6 +630,7 @@
     <string>nav-right</string>
     <string>nav-up</string>
     <string>opacity</string>
+    <string>orientation</string>
     <string>orphans</string>
     <string>outline-color</string>
     <string>outline-offset</string>
@@ -545,6 +667,7 @@
     <string>quotes</string>
     <string>rendering-intent</string>
     <string>resize</string>
+    <string>resolution</string>
     <string>rest-after</string>
     <string>rest-before</string>
     <string>rest</string>
@@ -558,6 +681,7 @@
     <string>ruby-overhang</string>
     <string>ruby-position</string>
     <string>ruby-span</string>
+    <string>scan</string>
     <string>size</string>
     <string>speak-date</string>
     <string>speak-header</string>
@@ -566,6 +690,7 @@
     <string>speak-time</string>
     <string>speak</string>
     <string>speech-rate</string>
+    <string>src</string>
     <string>stress</string>
     <string>string-set</string>
     <string>tab-index</string>
@@ -622,7 +747,6 @@
     <string>transition-property</string>
     <string>transition-timing-function</string>
     <string>transition</string>
-    <string>tty.link</string>
     <string>unicode-bidi</string>
     <string>user-focus-key</string>
     <string>user-focus-pointer</string>
@@ -655,6 +779,9 @@
     <string>wrap-option</string>
     <string>writing-mode</string>
     <string>z-index</string>
+
+    <!-- Vendor-prefixed CSS property names -->
+
     <string>-moz-activehyperlinktext</string>
     <string>-moz-alias</string>
     <string>-moz-all</string>
@@ -865,7 +992,12 @@
     <string>-moz-zoom-in</string>
     <string>-moz-zoom-out</string>
     <string>-ms-filter</string>
+    <string>-ms-flex-align</string>
+    <string>-ms-flex-direction</string>
+    <string>-ms-flex-pack</string>
+    <string>-ms-flexbox</string>
     <string>-ms-text-size-adjust</string>
+    <string>-ms-touch-action</string>
     <string>-ms-user-select</string>
     <string>-o-text-overflow</string>
     <string>-webkit-activelink</string>
