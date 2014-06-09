@@ -180,6 +180,7 @@
     <string>last-child</string>
     <string>legend</string>
     <string>li</string>
+    <string>linear-gradient</string>
     <string>link</string>
     <string>main</string>
     <string>map</string>
@@ -259,6 +260,7 @@
     <string>-moz-handler-disabled</string>
     <string>-moz-inline-table</string>
     <string>-moz-last-node</string>
+    <string>-moz-linear-gradient</string>
     <string>-moz-list-bullet</string>
     <string>-moz-list-number</string>
     <string>-moz-loading</string>
@@ -267,12 +269,14 @@
     <string>-moz-lwtheme-brighttext</string>
     <string>-moz-lwtheme-darktext</string>
     <string>-moz-lwtheme</string>
+    <string>-moz-none</string>
     <string>-moz-only-whitespace</string>
     <string>-moz-page-sequence</string>
     <string>-moz-page</string>
     <string>-moz-pagebreak</string>
     <string>-moz-pagecontent</string>
     <string>-moz-placeholder</string>
+    <string>-moz-radial-gradient</string>
     <string>-moz-scrolled-canvas</string>
     <string>-moz-scrolled-content</string>
     <string>-moz-scrolled-page-sequence</string>
@@ -319,6 +323,7 @@
     <string>-ms-expand</string>
     <string>-ms-input-placeholder</string>
     <string>-webkit-input-placeholder</string>
+    <string>-webkit-linear-gradient</string>
     <string>@-moz-document</string>
     <string>@-moz-keyframes</string>
     <string>@-webkit-keyframes</string>
@@ -900,7 +905,6 @@
     <string>-moz-khmer</string>
     <string>-moz-lao</string>
     <string>-moz-left</string>
-    <string>-moz-linear-gradient</string>
     <string>-moz-list</string>
     <string>-moz-mac-accentdarkestshadow</string>
     <string>-moz-mac-accentdarkshadow</string>
@@ -934,7 +938,6 @@
     <string>-moz-min-content</string>
     <string>-moz-myanmar</string>
     <string>-moz-nativehyperlinktext</string>
-    <string>-moz-none</string>
     <string>-moz-opacity</string>
     <string>-moz-oriya</string>
     <string>-moz-osx-font-smoothing</string>
@@ -953,7 +956,6 @@
     <string>-moz-persian</string>
     <string>-moz-popup</string>
     <string>-moz-pull-down-menu</string>
-    <string>-moz-radial-gradient</string>
     <string>-moz-right</string>
     <string>-moz-scrollbars-none</string>
     <string>-moz-show-background</string>
@@ -1063,7 +1065,6 @@
     <string>-webkit-left</string>
     <string>-webkit-line-break</string>
     <string>-webkit-line-clamp</string>
-    <string>-webkit-linear-gradient</string>
     <string>-webkit-link</string>
     <string>-webkit-margin-bottom-collapse</string>
     <string>-webkit-margin-collapse</string>
